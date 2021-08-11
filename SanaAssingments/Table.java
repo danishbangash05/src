@@ -11,9 +11,10 @@ public class Table {
 
         user = sc.nextInt();
 
-        for (int i =1; i<=10; i++){
+        for (int i = 1; i <= 10; i++){
             // 2 * 1 = 2
             System.out.println(user+ " * " + i + " = " + user * i);
+            System.out.println("----------");
         }
 
     }
